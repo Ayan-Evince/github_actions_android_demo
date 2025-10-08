@@ -40,10 +40,10 @@ jobs:
           name: app-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
 
-      # Optional: Also upload logs or reports
-      - name: Upload build reports (optional)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with: 
-          name: build-reports
-          path: app/build/reports
+      # # Optional: Also upload logs or reports
+      # - name: Upload build reports (optional)
+      #   if: always()
+      #   uses: actions/upload-artifact@v4
+      #   with: 
+      #     name: build-reports
+      #     path: app/build/reports
